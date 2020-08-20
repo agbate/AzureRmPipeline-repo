@@ -20,6 +20,6 @@ steps:
     location: 'Central US'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateStorageAccount/azuredeploy.json'
-    overrideParameters: '-projectName AzureRmPipeline -linkedTemplateUri https://github.com/agbate/AzureRmPipeline-repo/blob/master/CreateStorageAccount/linkedStorageAccount.json'
+    overrideParameters: '-projectName catherineeta20170233 -linkedTemplateUri https://github.com/agbate/AzureRmPipeline-repo/blob/master/CreateStorageAccount/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
